@@ -1,0 +1,82 @@
+@media screen and (max-width:468px) {
+    .cabecalho {
+        justify-content: center;
+    }
+
+    .cabecalho img {
+        display: none;
+    }
+
+    .banner {
+        height: 40vh;
+    }
+
+    .banner__titulo {
+        font-size: 2rem;
+    }
+
+    .principal {
+        margin: 2rem 0;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .paragrafo {
+        font-size: 1rem;
+        width: 20rem;
+        line-height: 2rem;
+    }
+
+    .receita {
+        grid-template-columns: 1fr;
+    }
+
+    .card__conteudo {
+        padding: 1.5rem;
+    }
+
+    .card__titulo {
+        font-size: 1.2rem;
+    }
+
+    .card__texto {
+        font-size: 1rem;
+    }
+
+    .card__botao a {
+        font-size: 1rem;
+    }
+
+    .quemsomos_container {
+        flex-direction: column;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .quemsomos_card img {
+        width: 60%;
+    }
+
+    .quemsomos_titulo {
+        font-size: 1.2rem;
+    }
+
+    .quemsomos_descricao {
+        font-size: 1rem;
+    }
+
+    .rodape_texto {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media screen and (min-width:469px) and (max-width:768px) {
+    .receita {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
